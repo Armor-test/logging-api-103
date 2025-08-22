@@ -1,0 +1,35 @@
+# CODEOWNERS file for logging-api-103
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-payments @Armor-test/dept-identity @Armor-test/squad-tooling
+
+# Directory ownership
+/src/ @Armor-test/squad-api @Armor-test/grp-ui @Armor-test/unit-design
+/services/ @Armor-test/squad-ml @Armor-test/grp-ui @Armor-test/grp-search
+/config/ @Armor-test/dept-reliability @Armor-test/dept-billing
+/docs/ @Armor-test/dept-api @Armor-test/grp-ui
+/plugins/ @Armor-test/unit-devops @Armor-test/team-logging @Armor-test/team-security
+/vendor/ @Armor-test/unit-cloud @Armor-test/squad-search
+/common/ @Armor-test/unit-test @Armor-test/dept-security
+/models/ @Armor-test/squad-mobile @Armor-test/unit-test @Armor-test/dept-api
+/components/ @Armor-test/grp-integration @Armor-test/dept-logging @Armor-test/grp-storage
+/dist/ @Armor-test/squad-frontend @Armor-test/unit-governance
+/internal/ @Armor-test/grp-reporting @Armor-test/dept-reporting @Armor-test/squad-apps
+/build/ @Armor-test/squad-frontend @Armor-test/team-core @Armor-test/grp-storage
+/app/ @Armor-test/team-security @Armor-test/squad-apps @Armor-test/grp-storage
+
+# File type ownership
+*.tsx @Armor-test/team-core @Armor-test/grp-ui @Armor-test/dept-api
+*.py @Armor-test/squad-ml @Armor-test/dept-data @Armor-test/team-logging
+*.html @Armor-test/squad-cloud @Armor-test/unit-design
+*.rb @Armor-test/dept-billing @Armor-test/team-security @Armor-test/grp-payments
+*.yaml @Armor-test/dept-test @Armor-test/grp-search
+*.properties @Armor-test/dept-test @Armor-test/team-logging @Armor-test/squad-cloud
+*.toml @Armor-test/unit-governance @Armor-test/squad-search @Armor-test/grp-search
+*.graphql @Armor-test/dept-reliability @Armor-test/dept-release
+*.go @Armor-test/dept-logging @Armor-test/team-logging
+*.ts @Armor-test/squad-tooling @Armor-test/squad-api
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
